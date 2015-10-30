@@ -31,7 +31,7 @@ h1, h2, h3 {
   float: right;
 }
 img {
-  border: 20px solid green;
+  border: 20px ridge orange;
 }
 div {
   margin-top: 1em;
@@ -39,10 +39,11 @@ div {
   margin-bottom: 2em;
 
 }
-p {
+h4 {
   float: none;
   text-align: justify;
   border-radius: 5px 5px 5px 5px;
-  border-style: groove
+  border-style: groove;
+  box-shadow: 4px 4px 4px 4px gray 
 
 }
