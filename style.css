@@ -14,7 +14,8 @@ h1, h2, h3 {
 }
 /*hit command slash to auto comment*/
 #summary {
-  color: red;
+  color: black;
+  font-variant: small-caps;
 }
 .unicorn {
   color: purple;
