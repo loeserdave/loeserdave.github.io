@@ -65,3 +65,7 @@ img {
 .list-group-item {
   margin-top: 1px;
 }
+.img-margin {
+  margin-top: 5px;
+  border: bold 2px black;
+}
