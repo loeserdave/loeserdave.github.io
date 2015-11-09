@@ -1,57 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About: David A Loeser</title>
+  <title>Bootstrap Me</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
-  <body>
-    <div>
+<body>
+<div class="container">
+  <div class="alert alert-success alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <strong>Welcome!</strong> Take a look around to learn more about me.
+  </div>
+  <div class="page-header">
+    <h1>Dave Loeser <small>Associate Director, Product Development - Accuity</small></h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-5 col-md-3">
       <img src="loeser.jpg">
     </div>
-    <div id="wrapper">
-      <h1>Dave Loeser</h1>
-      <h2>Product Management and Development</h2>
-      <h3>Chicago, IL</h3>
-      <div>
+    <div class="col-xs-7 col-md-7">
+      <h3>Summary</h3>
+      <p id="summary">
+            Product Management professional dedicated to lead innovative software development, creating high-quality solutions and providing exceptional services. Experienced Product Owner working within Agile Development Methodologies building new and enhancing existing product lines. 
+      </p>
+    </div>
+    <div class="hidden-xs col-md-2">
+      <h4>Awards & Certifications</h4>
+    </div>
+  </div>
+  <!-- <div class="container"> -->
+    <div class="row">
+      <div class="col-xs-3 col-md-3">
         <h4>Connect With Me</h4>
-          <ul>
-            <li><a href="mailto:d-loeser@kellogg.northwestern.edu">Email</a></li>
-            <li><a href="http://twitter.com/bewareofdlayz">Twitter</a></li>
-            <li><a href="http://facebook.com/dave.loeser">Facebook</a></li>
-          </ul>
-      </div>
-      <div>
-        <h4>Summary</h4>
-        <p id="summary">
-            Dave studied Political Science at the <strong><u>University of Illinois at Urbana-Champaign</u></strong>, is working towards a Master of Business Administration degree from the <strong><u>Kellogg School of Management at Northwestern University</u></strong> and now works as Associate Director of Product Management for Accuity. Accuity is a software and data company providing solutions that allow financial institutions to comply with sanctions regulations.
-        </p>
-      </div>
-      <div>
-        <h4>Experience</h4>
-        <ul>
-          <li>Associate Director, Risk & Compliance, <a href="http://www.accuity.com">Accuity</a> (04/2014 - Present)</li>
-          <li>Sr. Product Manager, Risk & Compliance, <a href="http://www.accuity.com">Accuity</a> (01/2012 - 04/2014)</li>
-          <li>Product Manager, Risk & Compliance, <a href="http://www.accuity.com">Accuity</a> (08/2008 - 01/2012</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Skills</h4>
-        <ul>
-          <li>Product Management</li>
-          <li>Product Design</li>
-          <li>Communication</li>
-          <li>Project Management</li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="unicorn">Hobbies</h4>
-        <ul>
-          <li>Enjoying Sports</li>
-          <li>Having diverse interests</li>
-        </ul>
+          <div class="list-group">
+            <a href="mailto:d-loeser@kellogg.northwestern.edu" class="btn btn-sm btn-success list-group-item"><i class="fa fa-envelope"></i>    Email</a>
+            <a href="http://twitter.com/bewareofdlayz" class="btn btn-sm btn-success list-group-item"><i class="fa fa-twitter"></i>   Twitter</a>
+            <a href="http://facebook.com/dave.loeser" class="btn btn-sm btn-success list-group-item"><i class="fa fa-facebook-official"></i>
+    Facebook</a>
+          </div>
       </div>
     </div>
-  </body>
+</div>
+      <!-- </div> -->
+
+</body>
 </html>

@@ -15,7 +15,6 @@ h1, h2, h3 {
 /*hit command slash to auto comment*/
 #summary {
   color: black;
-  font-variant: small-caps;
 }
 .unicorn {
   color: purple;
@@ -33,27 +32,36 @@ h1, h2, h3 {
   float: right;
 }
 img {
-  border: 10px ridge gray;
   width: 250px;
   height: 250px;
-  float: left;
-  margin: 10px 10px 10px 10px;
 }
 
-div {
+/*div {
   margin-top: 1em;
   margin-right: 1.5em;
   margin-bottom: 2em;
 
-}
-h4 {
+} */
+/*h4 {
   float: none;
   text-align: justify;
   border-radius: 5px 5px 5px 5px;
   border-style: groove;
   box-shadow: 4px 4px 4px 4px gray 
 
-}
+}*/
 .right {
   text-align: right;
+}
+.row {
+  margin-left: 15px;
+}
+.btnlist {
+  margin-top: 5px;
+}
+.alert {
+  margin-top: 5px;
+}
+.list-group-item {
+  margin-top: 1px;
 }
