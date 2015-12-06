@@ -8,7 +8,7 @@ $(function() {
     $('li').show()
   });
 
-  $("#remove-record").on("click", function(event) {
+  $(".remove-record").on("click", function(event) {
     event.preventDefault();
     var elementThatWasClicked = $(this);
     elementThatWasClicked.parent().hide();
