@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>David A Loeser: About Me</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="todolist.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="alert alert-success alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <strong>Welcome!</strong> Take a look around to learn more about me.
+  </div>
+  <div class="page-header">
+    <h1>Dave Loeser <small>Associate Director, Product Development - Accuity</small></h1>
+    <ul class="nav nav-tabs">
+      <li role="presentation"><a href="index.html">Home</a></li>
+      <li role="presentation"><a href="social.html">Social Media</a></li>
+      <li role="presentation" class="active"><a href="#">To Do List</a></li>
+    </ul>
+  </div>
+  <h1>Create a To Do List</h1>
+  <div class="col-xs-6 col-md-6">
+      
+      <ul class="list-group" id="todolist">
+          <li><a id="remove-record" class="btn btn-default" href="todolist.js">Done!</a> Walk the Dog</li>
+          <li><a id="remove-record" class="btn btn-default" href="todolist.js">Done!</a> Take the Garbage Out</li>
+          <li><a id="remove-record" class="btn btn-default" href="todolist.js">Done!</a> Go to the Grocery Store</li>
+      </ul>
+      <div class="input-group">
+        <span class="input-group-btn">
+        <a id="add-record" class="btn btn-default" href="todolist.js">Start Over!</a>
+      </span>
+      </div>
+  </div>
+</div>
+</body>
+</html>
